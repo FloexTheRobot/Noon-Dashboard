@@ -1,0 +1,842 @@
+[
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "noon",
+    "price": 106.4,
+    "at": "2026-06-13T15:30:24.326Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Amazon",
+    "price": 95.76,
+    "at": "2026-06-13T15:30:24.327Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Jumla",
+    "price": 107.46,
+    "at": "2026-06-13T15:30:24.329Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Star Gallery",
+    "price": 104.27,
+    "at": "2026-06-13T15:30:24.331Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "noon",
+    "price": 128.8,
+    "at": "2026-06-13T15:30:24.333Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Amazon",
+    "price": 149.41,
+    "at": "2026-06-13T15:30:24.335Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Jumla",
+    "price": 124.94,
+    "at": "2026-06-13T15:30:24.336Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Star Gallery",
+    "price": 121.07,
+    "at": "2026-06-13T15:30:24.337Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "noon",
+    "price": 110.6,
+    "at": "2026-06-13T15:30:24.339Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Amazon",
+    "price": 102.86,
+    "at": "2026-06-13T15:30:24.341Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Jumla",
+    "price": 115.02,
+    "at": "2026-06-13T15:30:24.342Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Star Gallery",
+    "price": 111.71,
+    "at": "2026-06-13T15:30:24.343Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "noon",
+    "price": 32.2,
+    "at": "2026-06-13T15:30:24.344Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Amazon",
+    "price": 31.23,
+    "at": "2026-06-13T15:30:24.346Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Jumla",
+    "price": 34.78,
+    "at": "2026-06-13T15:30:24.347Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Star Gallery",
+    "price": 33.81,
+    "at": "2026-06-13T15:30:24.348Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "noon",
+    "price": 91,
+    "at": "2026-06-13T15:30:24.349Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Amazon",
+    "price": 90.09,
+    "at": "2026-06-13T15:30:24.350Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Jumla",
+    "price": 100.1,
+    "at": "2026-06-13T15:30:24.352Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Star Gallery",
+    "price": 97.37,
+    "at": "2026-06-13T15:30:24.353Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "noon",
+    "price": 106.4,
+    "at": "2026-06-13T15:37:53.675Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Amazon",
+    "price": 95.76,
+    "at": "2026-06-13T15:37:53.677Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Jumla",
+    "price": 107.46,
+    "at": "2026-06-13T15:37:53.679Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Star Gallery",
+    "price": 104.27,
+    "at": "2026-06-13T15:37:53.683Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "noon",
+    "price": 128.8,
+    "at": "2026-06-13T15:37:53.685Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Amazon",
+    "price": 149.41,
+    "at": "2026-06-13T15:37:53.687Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Jumla",
+    "price": 124.94,
+    "at": "2026-06-13T15:37:53.689Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Star Gallery",
+    "price": 121.07,
+    "at": "2026-06-13T15:37:53.692Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "noon",
+    "price": 110.6,
+    "at": "2026-06-13T15:37:53.694Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Amazon",
+    "price": 102.86,
+    "at": "2026-06-13T15:37:53.696Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Jumla",
+    "price": 115.02,
+    "at": "2026-06-13T15:37:53.698Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Star Gallery",
+    "price": 111.71,
+    "at": "2026-06-13T15:37:53.699Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "noon",
+    "price": 32.2,
+    "at": "2026-06-13T15:37:53.701Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Amazon",
+    "price": 31.23,
+    "at": "2026-06-13T15:37:53.704Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Jumla",
+    "price": 34.78,
+    "at": "2026-06-13T15:37:53.705Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Star Gallery",
+    "price": 33.81,
+    "at": "2026-06-13T15:37:53.707Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "noon",
+    "price": 91,
+    "at": "2026-06-13T15:37:53.709Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Amazon",
+    "price": 90.09,
+    "at": "2026-06-13T15:37:53.711Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Jumla",
+    "price": 100.1,
+    "at": "2026-06-13T15:37:53.714Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Star Gallery",
+    "price": 97.37,
+    "at": "2026-06-13T15:37:53.715Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "noon",
+    "price": 106.4,
+    "at": "2026-06-13T16:17:50.622Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Amazon",
+    "price": 95.76,
+    "at": "2026-06-13T16:17:50.625Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Jumla",
+    "price": 107.46,
+    "at": "2026-06-13T16:17:50.627Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Star Gallery",
+    "price": 104.27,
+    "at": "2026-06-13T16:17:50.629Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "noon",
+    "price": 128.8,
+    "at": "2026-06-13T16:17:50.630Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Amazon",
+    "price": 149.41,
+    "at": "2026-06-13T16:17:50.632Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Jumla",
+    "price": 124.94,
+    "at": "2026-06-13T16:17:50.633Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Star Gallery",
+    "price": 121.07,
+    "at": "2026-06-13T16:17:50.634Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "noon",
+    "price": 110.6,
+    "at": "2026-06-13T16:17:50.636Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Amazon",
+    "price": 102.86,
+    "at": "2026-06-13T16:17:50.637Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Jumla",
+    "price": 115.02,
+    "at": "2026-06-13T16:17:50.638Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Star Gallery",
+    "price": 111.71,
+    "at": "2026-06-13T16:17:50.640Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "noon",
+    "price": 32.2,
+    "at": "2026-06-13T16:17:50.641Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Amazon",
+    "price": 31.23,
+    "at": "2026-06-13T16:17:50.642Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Jumla",
+    "price": 34.78,
+    "at": "2026-06-13T16:17:50.644Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Star Gallery",
+    "price": 33.81,
+    "at": "2026-06-13T16:17:50.645Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "noon",
+    "price": 91,
+    "at": "2026-06-13T16:17:50.646Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Amazon",
+    "price": 90.09,
+    "at": "2026-06-13T16:17:50.647Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Jumla",
+    "price": 100.1,
+    "at": "2026-06-13T16:17:50.649Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Star Gallery",
+    "price": 97.37,
+    "at": "2026-06-13T16:17:50.651Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "noon",
+    "price": 106.4,
+    "at": "2026-06-13T16:17:53.276Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Amazon",
+    "price": 95.76,
+    "at": "2026-06-13T16:17:53.278Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Jumla",
+    "price": 107.46,
+    "at": "2026-06-13T16:17:53.279Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Star Gallery",
+    "price": 104.27,
+    "at": "2026-06-13T16:17:53.281Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "noon",
+    "price": 128.8,
+    "at": "2026-06-13T16:17:53.283Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Amazon",
+    "price": 149.41,
+    "at": "2026-06-13T16:17:53.286Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Jumla",
+    "price": 124.94,
+    "at": "2026-06-13T16:17:53.288Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Star Gallery",
+    "price": 121.07,
+    "at": "2026-06-13T16:17:53.290Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "noon",
+    "price": 110.6,
+    "at": "2026-06-13T16:17:53.294Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Amazon",
+    "price": 102.86,
+    "at": "2026-06-13T16:17:53.296Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Jumla",
+    "price": 115.02,
+    "at": "2026-06-13T16:17:53.298Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Star Gallery",
+    "price": 111.71,
+    "at": "2026-06-13T16:17:53.300Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "noon",
+    "price": 32.2,
+    "at": "2026-06-13T16:17:53.301Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Amazon",
+    "price": 31.23,
+    "at": "2026-06-13T16:17:53.303Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Jumla",
+    "price": 34.78,
+    "at": "2026-06-13T16:17:53.304Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Star Gallery",
+    "price": 33.81,
+    "at": "2026-06-13T16:17:53.306Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "noon",
+    "price": 91,
+    "at": "2026-06-13T16:17:53.309Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Amazon",
+    "price": 90.09,
+    "at": "2026-06-13T16:17:53.310Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Jumla",
+    "price": 100.1,
+    "at": "2026-06-13T16:17:53.313Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Star Gallery",
+    "price": 97.37,
+    "at": "2026-06-13T16:17:53.315Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "noon",
+    "price": 106.4,
+    "at": "2026-06-13T16:20:19.263Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Amazon",
+    "price": 95.76,
+    "at": "2026-06-13T16:20:19.265Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Jumla",
+    "price": 107.46,
+    "at": "2026-06-13T16:20:19.267Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Star Gallery",
+    "price": 104.27,
+    "at": "2026-06-13T16:20:19.270Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "noon",
+    "price": 128.8,
+    "at": "2026-06-13T16:20:19.272Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Amazon",
+    "price": 149.41,
+    "at": "2026-06-13T16:20:19.275Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Jumla",
+    "price": 124.94,
+    "at": "2026-06-13T16:20:19.278Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Star Gallery",
+    "price": 121.07,
+    "at": "2026-06-13T16:20:19.279Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "noon",
+    "price": 110.6,
+    "at": "2026-06-13T16:20:19.281Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Amazon",
+    "price": 102.86,
+    "at": "2026-06-13T16:20:19.284Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Jumla",
+    "price": 115.02,
+    "at": "2026-06-13T16:20:19.288Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Star Gallery",
+    "price": 111.71,
+    "at": "2026-06-13T16:20:19.290Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "noon",
+    "price": 32.2,
+    "at": "2026-06-13T16:20:19.294Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Amazon",
+    "price": 31.23,
+    "at": "2026-06-13T16:20:19.295Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Jumla",
+    "price": 34.78,
+    "at": "2026-06-13T16:20:19.297Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Star Gallery",
+    "price": 33.81,
+    "at": "2026-06-13T16:20:19.298Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "noon",
+    "price": 91,
+    "at": "2026-06-13T16:20:19.300Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Amazon",
+    "price": 90.09,
+    "at": "2026-06-13T16:20:19.303Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Jumla",
+    "price": 100.1,
+    "at": "2026-06-13T16:20:19.307Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Star Gallery",
+    "price": 97.37,
+    "at": "2026-06-13T16:20:19.309Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "noon",
+    "price": 106.4,
+    "at": "2026-06-13T16:27:11.765Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Amazon",
+    "price": 95.76,
+    "at": "2026-06-13T16:27:11.767Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Jumla",
+    "price": 107.46,
+    "at": "2026-06-13T16:27:11.769Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Star Gallery",
+    "price": 104.27,
+    "at": "2026-06-13T16:27:11.771Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "noon",
+    "price": 128.8,
+    "at": "2026-06-13T16:27:11.772Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Amazon",
+    "price": 149.41,
+    "at": "2026-06-13T16:27:11.774Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Jumla",
+    "price": 124.94,
+    "at": "2026-06-13T16:27:11.775Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Star Gallery",
+    "price": 121.07,
+    "at": "2026-06-13T16:27:11.777Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "noon",
+    "price": 110.6,
+    "at": "2026-06-13T16:27:11.779Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Amazon",
+    "price": 102.86,
+    "at": "2026-06-13T16:27:11.780Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Jumla",
+    "price": 115.02,
+    "at": "2026-06-13T16:27:11.782Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Star Gallery",
+    "price": 111.71,
+    "at": "2026-06-13T16:27:11.784Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "noon",
+    "price": 32.2,
+    "at": "2026-06-13T16:27:11.785Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Amazon",
+    "price": 31.23,
+    "at": "2026-06-13T16:27:11.787Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Jumla",
+    "price": 34.78,
+    "at": "2026-06-13T16:27:11.788Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Star Gallery",
+    "price": 33.81,
+    "at": "2026-06-13T16:27:11.790Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "noon",
+    "price": 91,
+    "at": "2026-06-13T16:27:11.792Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Amazon",
+    "price": 90.09,
+    "at": "2026-06-13T16:27:11.794Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Jumla",
+    "price": 100.1,
+    "at": "2026-06-13T16:27:11.797Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Star Gallery",
+    "price": 97.37,
+    "at": "2026-06-13T16:27:11.800Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "noon",
+    "price": 106.4,
+    "at": "2026-06-13T16:27:14.813Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Amazon",
+    "price": 95.76,
+    "at": "2026-06-13T16:27:14.816Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Jumla",
+    "price": 107.46,
+    "at": "2026-06-13T16:27:14.818Z"
+  },
+  {
+    "productCode": "PDPBA10GY",
+    "platform": "Star Gallery",
+    "price": 104.27,
+    "at": "2026-06-13T16:27:14.820Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "noon",
+    "price": 128.8,
+    "at": "2026-06-13T16:27:14.822Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Amazon",
+    "price": 149.41,
+    "at": "2026-06-13T16:27:14.824Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Jumla",
+    "price": 124.94,
+    "at": "2026-06-13T16:27:14.826Z"
+  },
+  {
+    "productCode": "PDX642GY",
+    "platform": "Star Gallery",
+    "price": 121.07,
+    "at": "2026-06-13T16:27:14.827Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "noon",
+    "price": 110.6,
+    "at": "2026-06-13T16:27:14.829Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Amazon",
+    "price": 102.86,
+    "at": "2026-06-13T16:27:14.830Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Jumla",
+    "price": 115.02,
+    "at": "2026-06-13T16:27:14.832Z"
+  },
+  {
+    "productCode": "GNRNRGHP62BK",
+    "platform": "Star Gallery",
+    "price": 111.71,
+    "at": "2026-06-13T16:27:14.833Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "noon",
+    "price": 32.2,
+    "at": "2026-06-13T16:27:14.835Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Amazon",
+    "price": 31.23,
+    "at": "2026-06-13T16:27:14.836Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Jumla",
+    "price": 34.78,
+    "at": "2026-06-13T16:27:14.838Z"
+  },
+  {
+    "productCode": "PDXV40BK",
+    "platform": "Star Gallery",
+    "price": 33.81,
+    "at": "2026-06-13T16:27:14.839Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "noon",
+    "price": 91,
+    "at": "2026-06-13T16:27:14.841Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Amazon",
+    "price": 90.09,
+    "at": "2026-06-13T16:27:14.842Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Jumla",
+    "price": 100.1,
+    "at": "2026-06-13T16:27:14.844Z"
+  },
+  {
+    "productCode": "LVLNIQIBL",
+    "platform": "Star Gallery",
+    "price": 97.37,
+    "at": "2026-06-13T16:27:14.846Z"
+  }
+]

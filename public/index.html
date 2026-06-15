@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>noon online</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="bg-fx"></div>
+<aside>
+  <div class="brand"><span class="logo">noon</span><span class="sub">online</span></div>
+  <nav id="nav">
+    <div class="nav-indicator" id="navIndicator"></div>
+    <a href="#dashboard" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>Dashboard</a>
+    <a href="#autocreate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M12 12v6M9 15h6"/></svg>Auto Creation</a>
+    <a href="#pricing"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>MRP Calculator</a>
+    <a href="#profit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M19 9l-5 5-4-4-4 4"/></svg>Net profit</a>
+    <a href="#orders"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></svg>Orders</a>
+    <a href="#returns"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7v6h6"/><path d="M3 13a9 9 0 1 0 3-7.7L3 8"/></svg>Returns</a>
+    <a href="#deals"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.6 13.4 12 22l-9-9V3h10z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>Deals</a>
+    <a href="#ads"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11v2a1 1 0 0 0 1 1h3l4 4V6L7 10H4a1 1 0 0 0-1 1z"/><path d="M16 8a5 5 0 0 1 0 8"/></svg>Ads</a>
+    <a href="#products"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.3 7 12 12l8.7-5M12 22V12"/></svg>Products</a>
+    <a href="#aplus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 8v8M8 12h8"/></svg>A+ content</a>
+    <a href="#newarrivals"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20" stroke-width="2.4"/></svg>New arrivals</a>
+    <a href="#stock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7 12 3 4 7v10l8 4 8-4z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg>Stock</a>
+    <a href="#automations"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 0 1-4 0v-.1A1.6 1.6 0 0 0 7 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0-1.1-2.7H1a2 2 0 0 1 0-4h.1A1.6 1.6 0 0 0 2.6 7a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H7a1.6 1.6 0 0 0 1-1.5V1a2 2 0 0 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V7a1.6 1.6 0 0 0 1.5 1H21a2 2 0 0 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg>Automations</a>
+    <a href="#assistant"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4 2.5 5.5L8 19h8l.5-4.5C17.8 13 19 11.4 19 9a7 7 0 0 0-7-7z"/><path d="M9 22h6"/></svg>AI assistant</a>
+    <a href="#keywords"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h10M4 17h7"/></svg>Keywords &amp; titles</a>
+    <a href="#image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>AI image</a>
+    <a href="#bestsellers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0zM7 4H4v2a3 3 0 0 0 3 3M17 4h3v2a3 3 0 0 1-3 3"/></svg>Best sellers</a>
+    <a href="#compare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>Price compare</a>
+    <a href="#notes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12l-4 4H4z"/><path d="M16 20v-4h4"/></svg>Notes</a>
+    <a href="#calendar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Calendar</a>
+  </nav>
+  <div class="side-foot">noon online &middot; local edition<br/>connect &middot; noon partner APIs</div>
+</aside>
+
+<main>
+  <header class="top">
+    <h1 id="pageTitle">Dashboard</h1>
+    <div class="meta">
+      <span class="chip" id="dateChip"></span>
+      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light / dark" aria-label="Toggle theme">
+        <svg class="tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="wrap">
+
+    <section id="dashboard">
+      <h2 class="sec"><span class="dot"></span>Dashboard</h2>
+      <div class="subtabs">
+        <button class="stab active" onclick="subtab(this,'dashboard','overview')">Overview</button>
+        <button class="stab" onclick="subtab(this,'dashboard','action')">Action</button>
+      </div>
+
+      <div id="dashboard-overview" class="subpage show">
+        <div class="row" style="margin-bottom:14px">
+          <label class="fld" style="flex-direction:row;align-items:center;gap:8px">View sales for day
+            <input id="dashDate" type="date" onchange="viewDay()" />
+          </label>
+          <button class="btn ghost" onclick="resetDay()">Today</button>
+        </div>
+        <div class="grid kpis" id="kpis"></div>
+        <div class="card" style="margin-top:18px">
+          <div class="row" style="justify-content:space-between;align-items:center">
+            <h3 style="margin:0;font-size:15px">Sales trend (last 14 days)</h3>
+            <span class="muted" id="chartHint"></span>
+          </div>
+          <div id="chart" style="margin-top:14px"></div>
+        </div>
+        <h2 class="sec" style="margin-top:24px"><span class="dot"></span>Quick actions</h2>
+        <div class="card">
+          <div class="row">
+            <label class="fld">Product code<input id="createCode" value="ABC100" /></label>
+            <button class="btn" onclick="createProduct()">Create / update product</button>
+            <button class="btn ghost" onclick="syncStock()">Sync all stock</button>
+          </div>
+          <div class="out" id="actOut"></div>
+        </div>
+      </div>
+
+      <div id="dashboard-action" class="subpage">
+        <div class="card" style="margin-bottom:18px">
+          <div class="row">
+            <input id="actSearch" placeholder="Search item code or title..." oninput="renderActionItems()" />
+            <select id="actFilter" onchange="renderActionItems()">
+              <option value="needs">Needs action</option><option value="">All products</option>
+            </select>
+            <span class="muted" id="actCount"></span>
+          </div>
+          <div class="muted" style="margin-top:8px">Products with many views but few sales need action &mdash; fix price, images, A+ content or run ads.</div>
+        </div>
+        <div class="card"><table id="actionTbl"><thead></thead><tbody></tbody></table></div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2 class="sec"><span class="dot"></span>MRP Calculator</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Inputs</h3>
+          <div class="row" style="margin:6px 0 12px">
+            <label class="fld" style="flex:1">Fetch unit price from connect (SKU)
+              <input id="mrpSku" placeholder="e.g. PDPBA10GY" style="width:100%" />
+            </label>
+            <button class="btn ghost" onclick="mrpFetch()">Fetch</button>
+          </div>
+          <div class="muted" id="mrpFetchOut" style="margin-bottom:8px"></div>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <label class="fld">Unit Price (AED)<input id="mrpUnit" type="number" step="0.01" min="0" placeholder="from connect, or enter manually" style="width:100%" onkeydown="if(event.key==='Enter')mrpCalc()" /></label>
+            <label class="fld">RRP (AED)<input id="mrpRrp" type="number" step="0.01" min="0" style="width:100%" onkeydown="if(event.key==='Enter')mrpCalc()" /></label>
+            <label class="fld">Margin (%)<input id="mrpMargin" type="number" step="0.1" min="0" max="100" style="width:100%" onkeydown="if(event.key==='Enter')mrpCalc()" /></label>
+            <label class="fld">Weight (KG)<input id="mrpWeight" type="number" step="0.01" min="0" style="width:100%" oninput="mrpWeightTrigger()" onkeydown="if(event.key==='Enter')mrpCalc()" /></label>
+            <label class="fld">Estimated Fee (AED)<input id="mrpFee" type="number" step="0.01" min="0" style="width:100%" onkeydown="if(event.key==='Enter')mrpCalc()" /></label>
+            <div class="fld"><span>Parcel Tier</span>
+              <div class="subtabs" style="margin:6px 0 0">
+                <button class="stab active" id="mrpTierStd" onclick="mrpSetTier('Standard')">Standard</button>
+                <button class="stab" id="mrpTierOs" onclick="mrpSetTier('Oversize')">Oversize</button>
+              </div>
+              <span class="muted" style="font-weight:400">Auto-switches to Oversize at &ge; 12 KG.</span>
+            </div>
+          </div>
+          <div class="row" style="margin-top:18px">
+            <button class="btn" onclick="mrpCalc()">Calculate</button>
+            <button class="btn ghost" onclick="mrpClear()">Clear</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Result</h3>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--border)">
+            <span class="muted">Parcel Shipping</span><b id="mrpShip">&mdash;</b></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--border)">
+            <span class="muted">Commission Logic</span><b id="mrpComm">&mdash;</b></div>
+          <div class="muted" style="margin-top:18px">Calculated MRP</div>
+          <div class="row" style="align-items:center;gap:14px;margin-top:4px">
+            <span class="price-big" id="mrpResult">&mdash;</span>
+            <button class="btn ghost" id="mrpCopy" onclick="mrpCopy()">Copy</button>
+          </div>
+          <div id="mrpErr" style="margin-top:14px;color:var(--red);font-size:13px"></div>
+          <div class="muted" style="margin-top:14px;font-size:12px;line-height:1.6">
+            MRP = ( UnitPrice / ((1 &minus; Margin%)/0.95) + Shipping/0.95 ) / ( 1 &minus; (Fee/RRP)/0.95 )
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="profit">
+      <h2 class="sec"><span class="dot"></span>Net profit</h2>
+      <div class="grid two" id="profitStats" style="margin-bottom:18px"></div>
+      <div class="card"><table id="profitTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="orders">
+      <h2 class="sec"><span class="dot"></span>Daily orders</h2>
+      <div class="card">
+        <div class="row" style="margin-bottom:14px">
+          <label class="fld">Filter by status
+            <select id="orderFilter" onchange="renderOrders()">
+              <option value="">All</option><option>pending</option><option>shipped</option>
+              <option>delivered</option><option>cancelled</option>
+            </select>
+          </label>
+        </div>
+        <table id="ordersTbl"><thead></thead><tbody></tbody></table>
+      </div>
+    </section>
+
+    <section id="returns">
+      <h2 class="sec"><span class="dot"></span>Returns</h2>
+      <div class="grid kpis" id="retSummary" style="margin-bottom:18px"></div>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <input id="retSearch" placeholder="Search code, order, RMA or reason..." oninput="renderReturns()" style="flex:1" />
+          <span class="muted" id="retCount"></span>
+        </div>
+      </div>
+      <div class="card"><table id="retTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="deals">
+      <h2 class="sec"><span class="dot"></span>Deals</h2>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <button class="btn" onclick="optimizeDeals()">Run AI deal optimizer</button>
+          <span class="muted">Recommends which deals to join.</span>
+        </div>
+        <div class="out" id="optOut"></div>
+      </div>
+      <div class="card"><table id="dealsTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="ads">
+      <h2 class="sec"><span class="dot"></span>Ads performance</h2>
+      <div class="card"><table id="adsTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="products">
+      <h2 class="sec"><span class="dot"></span>Products</h2>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <input id="prodSearch" placeholder="Search code or title..." oninput="renderProducts()" />
+          <select id="prodCat" onchange="renderProducts()"><option value="">All categories</option></select>
+          <select id="prodLive" onchange="renderProducts()"><option value="">Live &amp; off</option><option value="live">Live only</option><option value="off">Off only</option></select>
+          <span class="muted" id="prodCount"></span>
+        </div>
+      </div>
+      <div class="card"><table id="products"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="stock">
+      <h2 class="sec"><span class="dot"></span>Stock</h2>
+      <div class="subtabs">
+        <button class="stab active" onclick="subtab(this,'stock','fbp')">FBP &mdash; my warehouse</button>
+        <button class="stab" onclick="subtab(this,'stock','fbn')">FBN &mdash; noon warehouse</button>
+      </div>
+
+      <div id="stock-fbp" class="subpage show">
+        <div class="card" style="margin-bottom:18px">
+          <div class="row">
+            <button class="btn" onclick="syncStock()">Sync all live listings</button>
+            <input id="fbpSearch" placeholder="Search item code..." oninput="renderFBP()" />
+            <span class="muted">Stock physically in your own warehouse (from the product panel).</span>
+          </div>
+          <div class="out" id="stockOut"></div>
+        </div>
+        <div class="card"><table id="fbpTbl"><thead></thead><tbody></tbody></table></div>
+      </div>
+
+      <div id="stock-fbn" class="subpage">
+        <div class="card" style="margin-bottom:18px">
+          <div class="row">
+            <input id="fbnSearch" placeholder="Search item code..." oninput="renderFBN()" />
+            <button class="btn" onclick="fbnAlert()">Email low-stock alert</button>
+            <span class="muted" id="fbnInfo">Your stock stored in noon's warehouse (fulfilled by noon).</span>
+          </div>
+          <div class="out" id="fbnAlertOut"></div>
+        </div>
+        <div class="card"><table id="fbnTbl"><thead></thead><tbody></tbody></table></div>
+      </div>
+    </section>
+
+    <section id="automations">
+      <h2 class="sec"><span class="dot"></span>Automations</h2>
+      <div class="card"><table id="autos"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="assistant">
+      <h2 class="sec"><span class="dot"></span>AI assistant</h2>
+      <div class="card">
+        <div class="row">
+          <label class="fld" style="flex:1">Ask anything about your store
+            <input id="askq" style="width:100%" value="What should I focus on today?" />
+          </label>
+          <button class="btn" onclick="askAI()">Ask</button>
+        </div>
+        <div class="out" id="askOut"></div>
+      </div>
+    </section>
+
+    <section id="keywords">
+      <h2 class="sec"><span class="dot"></span>Keyword &amp; title generator</h2>
+      <div class="card">
+        <div class="row">
+          <label class="fld">Product code<input id="kwCode" value="ABC100" /></label>
+          <label class="fld">or Category<input id="kwCat" placeholder="audio" /></label>
+          <button class="btn" onclick="genKeywords()">Generate</button>
+        </div>
+        <div class="out" id="kwOut"></div>
+      </div>
+    </section>
+
+    <section id="image">
+      <h2 class="sec"><span class="dot"></span>AI image generator</h2>
+      <div class="card">
+        <div class="row">
+          <label class="fld" style="flex:1">Prompt
+            <input id="imgPrompt" style="width:100%" value="banner for kitchen appliance deal" />
+          </label>
+          <label class="fld">Link to product<input id="imgCode" placeholder="optional" /></label>
+          <label class="fld">Size
+            <select id="imgSize">
+              <option>512x512</option><option>768x768</option>
+              <option selected>1024x1024</option><option>1024x1536</option><option>1536x1024</option>
+            </select>
+          </label>
+          <button class="btn" onclick="genImage()">Generate</button>
+        </div>
+        <div class="out" id="imgOut"></div>
+      </div>
+    </section>
+
+    <section id="bestsellers">
+      <h2 class="sec"><span class="dot"></span>Best sold items in MY store</h2>
+      <div class="card" style="margin-bottom:26px"><table id="bestMineTbl"><thead></thead><tbody></tbody></table></div>
+      <h2 class="sec"><span class="dot"></span>Best sellers on the PLATFORM</h2>
+      <div class="card"><table id="bestPlatTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="compare">
+      <h2 class="sec"><span class="dot"></span>Pricing &amp; competitor match</h2>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <input id="listSearch" placeholder="Search item code..." oninput="renderListings()" />
+          <button class="btn ghost" onclick="loadListings()">Refresh prices</button>
+          <button class="btn" onclick="matchAll()">Match all to cheapest</button>
+        </div>
+        <div class="out" id="matchOut"><span class="muted">Your listings vs Amazon, Jumla &amp; Star Gallery. "Match" sets your price to the cheapest competitor, never below your minimum viable floor.</span></div>
+      </div>
+      <div class="card"><table id="listTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="notes">
+      <h2 class="sec"><span class="dot"></span>Notes</h2>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <label class="fld">Title<input id="noteTitle" placeholder="Note title" /></label>
+          <label class="fld" style="flex:1">Body<input id="noteBody" style="width:100%" placeholder="Write a note..." /></label>
+          <label class="fld">Tags (comma)<input id="noteTags" placeholder="pricing, ABC100" /></label>
+          <button class="btn" onclick="addNote()">Add</button>
+        </div>
+        <div class="row" style="margin-top:10px">
+          <input id="noteSearch" placeholder="Search notes..." oninput="loadNotes()" />
+        </div>
+      </div>
+      <div class="card"><table id="notesTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="aplus">
+      <h2 class="sec"><span class="dot"></span>A+ content</h2>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <input id="aplusSearch" placeholder="Search code or title..." oninput="renderAplus()" />
+          <select id="aplusFilter" onchange="renderAplus()">
+            <option value="missing">Missing A+</option><option value="">All</option><option value="done">Uploaded</option>
+          </select>
+          <span class="muted" id="aplusCount"></span>
+        </div>
+        <div class="muted" style="margin-top:8px">Items that don't have A+ content uploaded yet.</div>
+      </div>
+      <div class="card"><table id="aplusTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="newarrivals">
+      <h2 class="sec"><span class="dot"></span>New arrivals (in panel, not yet created)</h2>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <input id="arrSearch" placeholder="Search code or title..." oninput="renderArrivals()" />
+          <select id="arrBrand" onchange="renderArrivals()"><option value="">All brands</option></select>
+          <select id="arrCat" onchange="renderArrivals()"><option value="">All categories</option></select>
+          <button class="btn ghost" onclick="loadArrivals()">Refresh</button>
+          <span class="muted" id="arrOut"></span>
+        </div>
+        <div class="muted" style="margin-top:8px">Items that have stock in your panel but you haven't listed yet.</div>
+      </div>
+      <div class="card"><table id="arrTbl"><thead></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="autocreate">
+      <h2 class="sec"><span class="dot"></span>Auto Creation</h2>
+
+      <div class="card" style="margin-bottom:18px">
+        <h3 style="margin:0 0 4px;font-size:15px">Create from SKU &rarr; noon</h3>
+        <p class="muted" style="margin:0 0 12px">Enter an SKU. Its description, images &amp; details are fetched from <b>connect.oskarme.com</b> and the product is created on <b>noon</b> via the Partner API &mdash; fully automated, no manual upload.</p>
+        <div class="row">
+          <label class="fld" style="flex:1">SKU<input id="acSku" placeholder="e.g. PDXV40BK" style="width:100%" /></label>
+          <button class="btn" onclick="acBuild()">Fetch &amp; create on noon</button>
+        </div>
+        <div class="out" id="acOut"></div>
+      </div>
+
+      <div class="card" style="margin-bottom:18px">
+        <h3 style="margin:0 0 4px;font-size:15px">Fallback &mdash; NIS catalogue file</h3>
+        <p class="muted" style="margin:0 0 12px">Export all created products as a noon-ready NIS Excel file (manual Seller Lab upload), or push it via the saved browser session.</p>
+        <div class="row">
+          <button class="btn" onclick="downloadCatalog('xlsx')">Download noon catalog (Excel)</button>
+          <button class="btn ghost" onclick="downloadCatalog('csv')">CSV</button>
+          <button class="btn" onclick="uploadToNoon()" style="background:var(--ink);color:#fff">Upload to noon</button>
+          <label class="fld" style="flex-direction:row;align-items:center;gap:8px"><input type="checkbox" id="catAll" style="min-width:auto" onchange="refreshCatalogInfo()" /> include demo items</label>
+          <span class="muted" id="catalogInfo"></span>
+        </div>
+        <div class="muted" id="catalogTpl" style="margin-top:10px"></div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin:0 0 4px;font-size:15px">Mode 3 &mdash; pricelist &rarr; NIS (single + variations)</h3>
+        <p class="muted" style="margin:0 0 12px">Upload a supplier <b>pricelist (.xlsx)</b> (columns like Product Description, Features, SKU, Barcode, Color…). Variants with a merged description cell are grouped automatically (color &rarr; size variation), section headers like <b>HEADPHONE</b>/<b>POWER BANK</b> drive classification, and images are pulled from connect per SKU. One NIS file is generated for every SKU.</p>
+        <div class="row">
+          <input id="plFile" type="file" accept=".xlsx" />
+          <button class="btn" onclick="acPricelist()">Generate NIS from pricelist</button>
+        </div>
+        <div class="out" id="plOut"></div>
+      </div>
+    </section>
+
+    <section id="calendar">
+      <h2 class="sec"><span class="dot"></span>Calendar &amp; reminders</h2>
+      <div class="card" style="margin-bottom:18px">
+        <div class="row">
+          <label class="fld">Date<input id="calDate" type="date" /></label>
+          <label class="fld" style="flex:1">Reminder<input id="calNote" style="width:100%" placeholder="e.g. Launch weekend deal" /></label>
+          <button class="btn" onclick="addEvent()">Add reminder</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cal-head">
+          <button class="btn ghost" onclick="calShift(-1)">&lsaquo; Prev</button>
+          <h3 id="calTitle" style="margin:0;font-size:17px"></h3>
+          <button class="btn ghost" onclick="calShift(1)">Next &rsaquo;</button>
+        </div>
+        <div class="cal-grid" id="calDow"></div>
+        <div class="cal-grid" id="calGrid" style="margin-top:8px"></div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

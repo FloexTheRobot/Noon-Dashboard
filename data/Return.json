@@ -1,0 +1,110 @@
+[
+  {
+    "returnId": "RMA-0500",
+    "orderId": "ORD-1003",
+    "productCode": "ABC108",
+    "reason": "Changed mind",
+    "status": "refunded",
+    "refundAmount": 153,
+    "date": "2026-06-13"
+  },
+  {
+    "returnId": "RMA-0501",
+    "orderId": "ORD-1004",
+    "productCode": "ABC109",
+    "reason": "Late delivery",
+    "status": "rejected",
+    "refundAmount": 154,
+    "date": "2026-06-12"
+  },
+  {
+    "returnId": "RMA-0502",
+    "orderId": "ORD-1005",
+    "productCode": "ABC110",
+    "reason": "Damaged",
+    "status": "requested",
+    "refundAmount": 155,
+    "date": "2026-06-11"
+  },
+  {
+    "returnId": "RMA-0503",
+    "orderId": "ORD-1006",
+    "productCode": "ABC111",
+    "reason": "Wrong item",
+    "status": "approved",
+    "refundAmount": 156,
+    "date": "2026-06-10"
+  },
+  {
+    "returnId": "RMA-0504",
+    "orderId": "ORD-1007",
+    "productCode": "ABC112",
+    "reason": "Not as described",
+    "status": "received",
+    "refundAmount": 157,
+    "date": "2026-06-09"
+  },
+  {
+    "returnId": "RMA-0505",
+    "orderId": "ORD-1008",
+    "productCode": "ABC113",
+    "reason": "Changed mind",
+    "status": "refunded",
+    "refundAmount": 158,
+    "date": "2026-06-08"
+  },
+  {
+    "returnId": "RMA-0506",
+    "orderId": "ORD-1009",
+    "productCode": "ABC114",
+    "reason": "Late delivery",
+    "status": "rejected",
+    "refundAmount": 159,
+    "date": "2026-06-07"
+  },
+  {
+    "returnId": "RMA-0507",
+    "orderId": "ORD-1010",
+    "productCode": "ABC115",
+    "reason": "Damaged",
+    "status": "requested",
+    "refundAmount": 160,
+    "date": "2026-06-06"
+  },
+  {
+    "returnId": "RMA-0508",
+    "orderId": "ORD-1011",
+    "productCode": "ABC116",
+    "reason": "Wrong item",
+    "status": "approved",
+    "refundAmount": 161,
+    "date": "2026-06-05"
+  },
+  {
+    "returnId": "RMA-0509",
+    "orderId": "ORD-1012",
+    "productCode": "ABC117",
+    "reason": "Not as described",
+    "status": "received",
+    "refundAmount": 162,
+    "date": "2026-06-04"
+  },
+  {
+    "returnId": "RMA-0510",
+    "orderId": "ORD-1010",
+    "productCode": "ABC107",
+    "reason": "Not as described",
+    "status": "received",
+    "refundAmount": 52,
+    "date": "2026-06-13"
+  },
+  {
+    "returnId": "RMA-0511",
+    "orderId": "ORD-1011",
+    "productCode": "ABC108",
+    "reason": "Changed mind",
+    "status": "refunded",
+    "refundAmount": 53,
+    "date": "2026-06-12"
+  }
+]

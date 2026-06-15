@@ -1,0 +1,30 @@
+{
+  "name": "noon-online-dashboard",
+  "version": "2.0.0",
+  "description": "noon online store manager - Node.js + Express edition. Local JSON storage, mock-or-real marketplace/panel/AI adapters.",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "noon": "cli.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "dashboard": "node cli.js dashboard",
+    "minprice": "node cli.js minprice",
+    "create": "node cli.js create",
+    "sync": "node cli.js sync",
+    "report": "node cli.js report"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "playwright": "^1.60.0",
+    "undici": "^6.26.0",
+    "xlsx": "^0.18.5"
+  }
+}

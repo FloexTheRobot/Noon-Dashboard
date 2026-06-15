@@ -1,0 +1,42 @@
+{
+  "currency": "AED",
+  "proxy": "",
+  "pricing": {
+    "commissionRate": 0.15,
+    "shippingCost": 12,
+    "prepCost": 2,
+    "targetMargin": 0.10
+  },
+  "marketplaceApiBase": "",
+  "marketplaceApiKey": "",
+  "panelApiBase": "https://connect.oskarme.com/api/v1",
+  "panelApiKey": "PUT-YOUR-CONNECT-PANEL-TOKEN-HERE",
+  "noon": {
+    "_comment": "Fill once noon grants Partner/Marketplace API access. apiGateway/upsertPath are fixed; put the service-account key file at auth/noon-key.json.",
+    "apiBase": "",
+    "apiKey": "",
+    "sellerCode": "",
+    "createPath": "/catalog/products",
+    "apiGateway": "https://noon-api-gateway.noon.partners",
+    "keyFile": "auth/noon-key.json",
+    "userAgent": "noon-online-dashboard/1.0",
+    "upsertPath": "/xborder-pricing/v1/product/upsert",
+    "sellerLab": {
+      "url": "https://noon-catalog.noon.partners/en/catalog/add-product?project=PRJ000&tab=bulk-product",
+      "email": "your-sellerlab-login@example.com",
+      "sessionPath": "auth/noon-session.json"
+    }
+  },
+  "imageApiBase": "",
+  "imageApiKey": "",
+  "anthropicApiKey": "PUT-YOUR-ANTHROPIC-API-KEY-HERE",
+  "anthropicModel": "claude-opus-4-8",
+  "smtp": {
+    "host": "",
+    "port": 587,
+    "user": "",
+    "pass": "",
+    "from": "",
+    "to": ""
+  }
+}

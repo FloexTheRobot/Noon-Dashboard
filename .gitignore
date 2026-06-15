@@ -1,0 +1,10 @@
+node_modules/
+
+# Secrets / sessions — never commit
+config.json
+auth/
+
+# Generated artifacts
+data/noon-upload-*.xlsx
+data/report-*.html
+*.log
